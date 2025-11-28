@@ -1,35 +1,34 @@
-# SQL Data Warehouse Project
+# SQL Data Warehouse (Medallion Architecture)
 
-This project is a full end-to-end data engineering pipeline built using:
-- SQL Server Express 2025
-- SQL Server Management Studio (SSMS)
-- Draw.io for architecture planning
-- Git/GitHub for version control
+This is an ongoing project where I am implementing a Data Warehouse using
+the Medallion Architecture (Bronze → Silver → Gold).
 
-## 📁 Project Structure
+## Current Progress
 
-## 📌 Pipeline Overview
+✔ Bronze schema created  
+✔ Silver schema created  
+✔ Basic ETL scripts for Bronze → Silver  
+✔ Sample datasets for testing  
+✔ Architecture & pipeline plan completed  
 
-- **Raw Layer (Bronze):** Store raw CSV files exactly as received.
-- **Staging Layer (Silver):** Clean, transform, validate.
-- **Data Warehouse Layer (Gold):** Create fact & dimension tables.
-- **Reporting:** Ready for BI dashboards.
+## In Progress
 
-## 🏗️ Database Schemas
-- `raw`
-- `staging`
-- `ods`
-- `dw`
+🔄 Gold layer transformations  
+🔄 Performance tuning  
+🔄 Dashboard integration  
 
-## ✔️ Current Progress
-- Environment setup completed  
-- SQL Server + SSMS installed  
-- Git repository initialized  
-- Project folder structure created  
-- Architecture diagram planned  
+## Tech Stack
 
-## 🚀 Next Steps
-- Import raw data
-- Build staging tables
-- Load ODS
-- Create star schema in DW
+- SQL Server / SQL Express  
+- SSMS  
+- Git  
+- Draw.io (Architecture diagram)
+
+## Project Goal
+
+To build a simple warehouse setup that supports:
+- Cleaned and conformed data in the Silver layer  
+- Business-ready metrics (daily revenue, delivery performance, etc.) in Gold  
+- ETL pipelines that automate the Bronze → Silver → Gold workflow
+
+More updates coming soon.
